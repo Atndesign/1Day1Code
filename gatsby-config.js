@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/1Day1Code",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
