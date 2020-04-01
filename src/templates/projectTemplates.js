@@ -26,7 +26,11 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
           <div className="btn__container">
-            <a href={frontmatter.link} className="btn project__btn">
+            <a
+              target="_blank"
+              href={frontmatter.link}
+              className="btn project__btn"
+            >
               Demo
             </a>
           </div>

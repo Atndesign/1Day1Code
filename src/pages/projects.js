@@ -19,7 +19,7 @@ export default ({ data }) => (
 )
 export const postQuery = graphql`
   query indexQuery {
-    allMarkdownRemark(limit: 10) {
+    allMarkdownRemark(limit: 1000) {
       edges {
         node {
           frontmatter {

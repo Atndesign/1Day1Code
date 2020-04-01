@@ -66,7 +66,7 @@ class Header extends Component {
             </li>
             <li className="list__item">
               <a target="_blank" href="https://kmoulun.gitlab.io/moulunkevin/">
-                Contact
+                About me
               </a>
             </li>
           </ul>
