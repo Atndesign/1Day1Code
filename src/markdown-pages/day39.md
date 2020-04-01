@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-02-08"
 path: "/projects/day39"
 title: "Day39: Rain simulation with canvas"
 img: "/img/projectImg/day39.png"

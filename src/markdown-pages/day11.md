@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-01-11"
 path: "/projects/day11"
 title: "Day11: Giphy API"
 img: "/img/projectImg/day11.png"

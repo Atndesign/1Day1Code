@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-01-07"
 path: "/projects/day7"
 title: "Day6/7: Countdown until the Decibel Outdoor Festival"
 img: "/img/projectImg/day6-7.png"

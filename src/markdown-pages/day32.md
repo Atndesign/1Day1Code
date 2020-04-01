@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-02-01"
 path: "/projects/day32"
 title: "Day32: Watch Shopping card"
 img: "/img/projectImg/day32.png"

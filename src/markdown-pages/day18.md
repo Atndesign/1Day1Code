@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-01-18"
 path: "/projects/day18"
 title: "Day18: Pixel Art Maker"
 img: "/img/projectImg/day18.png"

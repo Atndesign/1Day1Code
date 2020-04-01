@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-01-31"
 path: "/projects/day31"
 title: "Day31: Vote design animation"
 img: "/img/projectImg/day31.png"

@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-02-05"
 path: "/projects/day36"
 title: "Day36: Neon clock"
 img: "/img/projectImg/day36.png"

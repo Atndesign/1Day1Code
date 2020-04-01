@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-01-27"
 path: "/projects/day27"
 title: "Day27: Cube Color Move"
 img: "/img/projectImg/day27.png"

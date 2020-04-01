@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-02-13"
 path: "/projects/day44"
 title: "Day44: Weight converter"
 img: "/img/projectImg/day44.png"

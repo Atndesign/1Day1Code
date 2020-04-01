@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-01-06"
 path: "/projects/day5"
 title: "Day5: Loto numbers generator"
 img: "/img/projectImg/day5.png"

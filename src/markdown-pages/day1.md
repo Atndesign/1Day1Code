@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2017-05-04"
 path: "/projects/day1"
 title: "Day1: Sushiii"
 img: "/img/projectImg/day1.png"

@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-02-22"
 path: "/projects/day53"
 title: "Day53: Chuck Noris Facts"
 img: "/img/projectImg/day53.png"

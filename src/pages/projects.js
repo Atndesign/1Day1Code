@@ -1,6 +1,8 @@
 import React from "react"
 import Header from "../components/header"
 import ThumbnailProject from "../components/project-thumbnail"
+let dir = "https://atndesign.github.io/1Day1Code"
+
 export default ({ data }) => (
   <React.Fragment>
     <Header />
@@ -8,9 +10,9 @@ export default ({ data }) => (
       {data.allMarkdownRemark.edges.map(project => (
         <div className="col-lg-3 col-md-4">
           <ThumbnailProject
-            cover={project.node.frontmatter.img}
+            cover={dir + project.node.frontmatter.img}
             title={project.node.frontmatter.title}
-            path={project.node.frontmatter.path}
+            path={dir + project.node.frontmatter.path}
           />
         </div>
       ))}
@@ -19,7 +21,10 @@ export default ({ data }) => (
 )
 export const postQuery = graphql`
   query indexQuery {
-    allMarkdownRemark(limit: 1000) {
+    allMarkdownRemark(
+      limit: 1000
+      sort: { fields: [frontmatter___date], order: ASC }
+    ) {
       edges {
         node {
           frontmatter {
@@ -27,6 +32,7 @@ export const postQuery = graphql`
             link
             title
             path
+            date
           }
         }
       }

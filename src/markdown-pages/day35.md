@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-02-04"
 path: "/projects/day35"
 title: "Day35: Lightbox.js test"
 img: "/img/projectImg/day35.png"

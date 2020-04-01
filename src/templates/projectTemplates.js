@@ -5,6 +5,7 @@ import Header from "../components/header"
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
+  let dir = "https://atndesign.github.io/1Day1Code"
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
   return (
@@ -14,7 +15,7 @@ export default function Template({
         <div className="col-md-6 project__img-container">
           <img
             className="project__img img-fluid"
-            src={frontmatter.img}
+            src={dir + frontmatter.img}
             alt="cover"
           ></img>
         </div>
@@ -28,7 +29,7 @@ export default function Template({
           <div className="btn__container">
             <a
               target="_blank"
-              href={frontmatter.link}
+              href={dir + frontmatter.link}
               className="btn project__btn"
             >
               Demo

@@ -1,5 +1,5 @@
 ---
-date: "2018-05-04"
+date: "2018-02-18"
 path: "/projects/day49"
 title: "Day49: Magic ball"
 img: "/img/projectImg/day49.png"

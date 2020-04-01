@@ -17,6 +17,7 @@ class Header extends Component {
   }
 
   render() {
+    let dir = "https://atndesign.github.io/1Day1Code"
     return (
       <header className="header">
         <div
@@ -24,7 +25,11 @@ class Header extends Component {
           className="sidebar mobile-only"
         >
           <button className="sidebar-cross" onClick={e => this.closeSidebar()}>
-            <img srcSet="/img/cross.svg" src="/img/cross.png" alt="cross" />
+            <img
+              srcSet={dir + "/img/cross.svg"}
+              src={dir + "/img/cross.png"}
+              alt="cross"
+            />
           </button>
           <ul className="nav__list">
             <li className="list__item">
@@ -48,11 +53,11 @@ class Header extends Component {
           className="sidebar-toggler mobile-only"
           onClick={e => this.openSidebar()}
         >
-          <img src="/img/menu.svg" alt="menu toggler" />
+          <img src={dir + "/img/menu.svg"} alt="menu toggler" />
         </button>
         <img
-          srcset="/img/{dailycode}.svg"
-          src="/img/{dailycode}.png"
+          srcset={dir + "/img/logo.svg"}
+          src={dir + "/img/logo.png"}
           alt="logo"
           className="logo"
         />

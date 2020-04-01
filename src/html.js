@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 export default function HTML(props) {
-  this.dir = "1Day1Code"
+  let dir = "https://atndesign.github.io/1Day1Code"
   return (
     <html {...props.htmlAttributes}>
       <head>
@@ -12,7 +12,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link rel="stylesheet" href={this.dir + "/css/index.css"}></link>
+        <link rel="stylesheet" href={dir + "/css/index.css"}></link>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
