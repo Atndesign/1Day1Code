@@ -1,0 +1,58 @@
+.project__img {
+    margin-bottom: $spacer * 2;
+}
+
+.project__title {
+    font-weight: 900;
+    font-size: $spacer;
+    margin-bottom: $spacer;
+}
+
+.project__content {
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: $spacer * 2;
+
+    h2 {
+        font-weight: 900;
+        font-size: 14px;
+    }
+}
+
+.btn__container {
+    display: flex;
+    justify-content: center;
+}
+
+.project__btn {
+    margin: inherit auto;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+@include media-breakpoint-desktop {
+    .project__img-container {
+        order: 1;
+    }
+
+    .project__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+            font-weight: 900;
+            font-size: 24px;
+        }
+    }
+
+    .btn__container {
+        justify-content: flex-start;
+    }
+
+    .project__title {
+        font-weight: 900;
+        font-size: 48px;
+        margin-bottom: $spacer *2;
+    }
+}

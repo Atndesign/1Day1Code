@@ -1,0 +1,18 @@
+.project__thumbnail {
+    margin-bottom: $spacer * 2;
+
+    .project-thumbnail__img {
+        margin-bottom: $spacer;
+    }
+
+    .project-thumbnail__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        margin-bottom: $spacer;
+    }
+
+    .project-thumbnail__btn {
+        width: 100%;
+    }
+}

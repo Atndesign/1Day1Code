@@ -17,6 +17,15 @@ body {
   padding: $spacer *2;
 }
 
+.btn {
+  padding: (12 / 16) *$spacer $spacer * 2;
+  background-color: $primary;
+  color: white;
+}
+
 //Components
 @import "./components/header.scss";
+@import "./components/homepage.scss";
+@import "./components/project-page.scss";
+@import "./components/thumbnail.scss";
 //Common

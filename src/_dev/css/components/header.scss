@@ -11,6 +11,7 @@
     }
 
     .sidebar {
+        z-index: 100;
         padding: $spacer * 2;
         position: fixed;
         left: -500px;
@@ -24,13 +25,14 @@
 
     .sidebar-cross {
         position: relative;
-        right: -90%;
+        left: 0%;
         background: none;
         border: none;
     }
 
     .nav__list {
         list-style: none;
+        text-align: left;
 
         .list__item {
             a {
@@ -39,6 +41,27 @@
 
             font-weight: 900;
             margin-bottom: $spacer;
+        }
+    }
+}
+
+@include media-breakpoint-desktop {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__nav {
+        .nav__list {
+            display: flex;
+
+            .list__item {
+                margin-right: $spacer;
+
+                a {
+                    color: black;
+                }
+            }
         }
     }
 }

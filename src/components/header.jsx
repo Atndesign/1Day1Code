@@ -24,7 +24,7 @@ class Header extends Component {
           className="sidebar mobile-only"
         >
           <button className="sidebar-cross" onClick={e => this.closeSidebar()}>
-            <img srcSet="./img/cross.svg" src="./img/cross.png" alt="" />
+            <img srcSet="/img/cross.svg" src="/img/cross.png" alt="cross" />
           </button>
           <ul className="nav__list">
             <li className="list__item">
@@ -44,13 +44,16 @@ class Header extends Component {
             </li>
           </ul>
         </div>
-        <button className="sidebar-toggler" onClick={e => this.openSidebar()}>
-          <img src="./img/menu.svg" alt="menu toggler" />
+        <button
+          className="sidebar-toggler mobile-only"
+          onClick={e => this.openSidebar()}
+        >
+          <img src="/img/menu.svg" alt="menu toggler" />
         </button>
         <img
-          srcset="./img/{dailycode}.svg"
-          src="./img/{dailycode}.png"
-          alt=""
+          srcset="/img/{dailycode}.svg"
+          src="/img/{dailycode}.png"
+          alt="logo"
           className="logo"
         />
         <nav className="header__nav desktop-only">
@@ -58,10 +61,10 @@ class Header extends Component {
             <li className="list__item">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className="list__item">
               <Link to="/projects/">Projects</Link>
             </li>
-            <li>
+            <li className="list__item">
               <a target="_blank" href="https://kmoulun.gitlab.io/moulunkevin/">
                 Contact
               </a>
