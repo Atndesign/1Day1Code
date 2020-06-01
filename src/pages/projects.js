@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import ThumbnailProject from "../components/project-thumbnail"
-let dir = "https://atndesign.github.io/1Day1Code"
+let dir = "https://atndesign.github.io/dailycode"
 
 export default ({ data }) => (
   <React.Fragment>
@@ -23,7 +23,7 @@ export const postQuery = graphql`
   query indexQuery {
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: ASC }
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
         node {

@@ -17,7 +17,7 @@ class Header extends Component {
   }
 
   render() {
-    let dir = "https://atndesign.github.io/1Day1Code"
+    let dir = "https://atndesign.github.io/dailycode"
     return (
       <header className="header">
         <div

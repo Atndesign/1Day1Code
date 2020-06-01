@@ -2,12 +2,23 @@ import React from "react"
 import PropTypes from "prop-types"
 
 export default function HTML(props) {
-  let dir = "https://atndesign.github.io/1Day1Code"
+  let dir = "https://atndesign.github.io/dailycode"
   return (
     <html {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+        <meta property="og:title" content="1Day1Code" />
+        <meta property="og:site_name" content="1Day1Code" />
+        <meta
+          property="og:url"
+          content="https://atndesign.github.io/dailycode/"
+        />
+        <meta
+          property="og:description"
+          content="Welcome to 1Day1Code the goal was to make a different project everyday"
+        />
+        <meta property="og:type" content="website" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
